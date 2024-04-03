@@ -1,0 +1,16 @@
+{
+  "name": "klirinterview",
+  "version": "1.0.0",
+  "description": "This is a sample for Klir's interview",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "npm  run start --prefix frontend",
+    "backend": "npm  run start --prefix backend",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "author": "Tiago Silva",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}

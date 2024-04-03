@@ -1,0 +1,15 @@
+version: '3'
+services:
+  # Node.js Express server service
+  backend:
+    build:
+      context: ./backend  # Path to the directory containing the Express server Dockerfile
+    ports:
+      - "3001:3001"  # Map port 3000 in the container to port 3000 on the host
+
+  # React.js client app service
+  frontend:
+    build:
+      context: ./frontend  # Path to the directory containing the React app Dockerfile
+    ports:
+      - "3000:3000"  # Map port 80 in the container to port 80 on the host

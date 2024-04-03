@@ -1,0 +1,14 @@
+{
+  "name": "klir_interview_backend",
+  "version": "1.0.0",
+  "description": "interview backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Tiago Silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

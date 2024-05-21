@@ -4,12 +4,12 @@ The goal of this challenge is to assess that, given a pre-developed application 
 - are a detail-oriented Test Engineer that is able to go through feature specifications, create a test plan and manually check if the app is acting accordingly;
 - are able to automate API level tests using a programming language of your choice 
 - are able to automate UI level tests using a programming language and/or test framework of your choice
-(if in doubt remember, our stack is: c# + specflow + cucumber)
+(if in doubt remember, our stack is: Cypress + JavaScript + App Actions)
 
 ## Considerations ##
 - The tasks outputs will have to be published in a public git repository. You are free to use any resources you want to research.
 - The task needs to be delivered, at the latest, 10 full days after reception. Please let us know when you expect to deliver your answer within a day of receiving this exercise.
-- The automation tasks (3 and 4) are aimed at showcasing your programming and test automation skills. You are free to use any programming language you want, but as we want to make sure you'll be able to use or learn (fast) the tech stacks we use, please refrain from using high-level scripting languages, pseudo-code or record-and-play tools such as SeleniumIDE, Tosca, RobotFramework, SikuliX, etc. At Klir we use C# and Playwright, so using them is obviously an extra.
+- The automation tasks (3 and 4) are aimed at showcasing your programming and test automation skills. You are free to use any programming language you want, but as we want to make sure you'll be able to use or learn (fast) the tech stacks we use, please refrain from using high-level scripting languages, pseudo-code or record-and-play tools such as SeleniumIDE, Tosca, RobotFramework, SikuliX, etc. At Klir we use  Cypress + JavaScript, so using them is obviously an extra.
 - If you need to take any assumptions please note them as part of your answers.
 
 ## Task 1: Test Environment Setup ##
